@@ -1,0 +1,69 @@
+{
+  "name": "ailog-rag-skills",
+  "version": "1.0.0",
+  "description": "Professional RAG development skills for Claude Code - audit, evaluate, optimize, and scaffold RAG pipelines",
+  "author": "Ailog",
+  "homepage": "https://ailog.fr",
+  "repository": "https://github.com/floflo777/claude-rag-skills",
+  "license": "MIT",
+  "keywords": [
+    "rag",
+    "retrieval-augmented-generation",
+    "vector-database",
+    "embeddings",
+    "llm",
+    "ai",
+    "claude-code",
+    "skills"
+  ],
+  "skills": [
+    {
+      "name": "rag-audit",
+      "version": "1.0.0",
+      "description": "Analyze RAG implementations for anti-patterns, performance issues, and best practices violations",
+      "path": "./rag-audit",
+      "commands": ["/rag-audit"],
+      "tags": ["audit", "review", "best-practices", "debugging"]
+    },
+    {
+      "name": "rag-eval",
+      "version": "1.0.0",
+      "description": "Evaluate RAG system quality with metrics (recall, precision, faithfulness) and optional Ailog API benchmarking",
+      "path": "./rag-eval",
+      "commands": ["/rag-eval"],
+      "tags": ["evaluation", "metrics", "benchmarking", "testing"]
+    },
+    {
+      "name": "chunking-advisor",
+      "version": "1.0.0",
+      "description": "Get expert recommendations on chunking strategies based on your document types and use case",
+      "path": "./chunking-advisor",
+      "commands": ["/chunking-advisor"],
+      "tags": ["chunking", "preprocessing", "optimization"]
+    },
+    {
+      "name": "rag-scaffold",
+      "version": "1.0.0",
+      "description": "Generate production-ready RAG pipeline boilerplate with best practices built-in",
+      "path": "./rag-scaffold",
+      "commands": ["/rag-scaffold"],
+      "tags": ["scaffold", "boilerplate", "generator", "starter"]
+    }
+  ],
+  "install": {
+    "instructions": [
+      "Clone the repository: git clone https://github.com/floflo777/claude-rag-skills.git",
+      "Copy skills to Claude Code: cp -r claude-rag-skills/* ~/.claude/skills/",
+      "Or use marketplace: /plugin marketplace add https://github.com/floflo777/claude-rag-skills",
+      "Then install individual skills: /plugin install rag-audit"
+    ],
+    "requirements": {
+      "claude_code_version": ">=2.0.0"
+    }
+  },
+  "support": {
+    "documentation": "https://app.ailog.fr/en/blog/guides",
+    "issues": "https://github.com/floflo777/claude-rag-skills/issues",
+    "discord": "https://discord.gg/ailog"
+  }
+}

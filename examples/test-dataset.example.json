@@ -1,0 +1,69 @@
+{
+  "name": "Example RAG Test Dataset",
+  "description": "Sample test cases for RAG evaluation with /rag-eval",
+  "version": "1.0.0",
+  "test_cases": [
+    {
+      "id": "tc_001",
+      "query": "What is the return policy for electronics?",
+      "expected_answer": "Electronics can be returned within 30 days with original receipt and packaging. Items must be in working condition.",
+      "relevant_doc_ids": ["doc_returns_policy", "doc_electronics_faq"],
+      "category": "policy",
+      "difficulty": "easy",
+      "tags": ["returns", "electronics"]
+    },
+    {
+      "id": "tc_002",
+      "query": "How do I track my order?",
+      "expected_answer": "You can track your order using the tracking link in your confirmation email, or by logging into your account and viewing order history.",
+      "relevant_doc_ids": ["doc_order_tracking"],
+      "category": "orders",
+      "difficulty": "easy",
+      "tags": ["tracking", "orders"]
+    },
+    {
+      "id": "tc_003",
+      "query": "Can I return an item without a receipt?",
+      "expected_answer": "Items can be returned without a receipt for store credit only. Valid ID is required. Electronics and high-value items cannot be returned without proof of purchase.",
+      "relevant_doc_ids": ["doc_returns_policy", "doc_exceptions"],
+      "category": "policy",
+      "difficulty": "medium",
+      "tags": ["returns", "exceptions"]
+    },
+    {
+      "id": "tc_004",
+      "query": "What happens if my order is damaged during shipping?",
+      "expected_answer": "Contact customer service within 48 hours of delivery with photos of the damage. We will arrange a replacement or full refund including shipping costs.",
+      "relevant_doc_ids": ["doc_shipping_damage", "doc_customer_service"],
+      "category": "shipping",
+      "difficulty": "medium",
+      "tags": ["shipping", "damage", "refunds"]
+    },
+    {
+      "id": "tc_005",
+      "query": "Compare the warranty coverage for laptops vs tablets",
+      "expected_answer": "Laptops come with a 2-year manufacturer warranty covering hardware defects. Tablets have a 1-year warranty. Extended warranties are available for both at checkout.",
+      "relevant_doc_ids": ["doc_laptop_warranty", "doc_tablet_warranty", "doc_extended_warranty"],
+      "category": "warranty",
+      "difficulty": "hard",
+      "tags": ["warranty", "comparison", "laptops", "tablets"]
+    }
+  ],
+  "metadata": {
+    "created_at": "2026-01-18",
+    "author": "Ailog RAG Skills",
+    "total_cases": 5,
+    "categories": ["policy", "orders", "shipping", "warranty"],
+    "difficulty_distribution": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    }
+  },
+  "evaluation_config": {
+    "retrieval_k": 5,
+    "score_threshold": 0.7,
+    "faithfulness_threshold": 0.8,
+    "relevance_threshold": 0.8
+  }
+}
